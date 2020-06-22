@@ -110,11 +110,19 @@ body {
 		height: 600px;
 	}
 }
-@media only screen and (min-width: 1200px) {
-	
+@media only screen and (min-width: 1400px) {
 	.carousel-inner {
 		width: auto;
-		height: 800px;
+		height: 550px;
+	}
+}
+@media only screen and (min-width: 2450px) {
+	.carousel-inner {
+		width: 600px;
+		height: auto;
+	}
+	#size {
+		font-size: 25px;
 	}
 }
 #simg {
@@ -137,7 +145,6 @@ body {
 	font-style: Gill Sans Extrabold, sans-serif;
 	}
 #event-head2 {
-	background-color: #45B39D;
 	height: 300px;
 	text-align: center;
 	font-style: Gill Sans Extrabold, sans-serif;
