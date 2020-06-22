@@ -1,0 +1,185 @@
+#dlogo {
+	height: auto;
+	background-color: #E8F8F5;
+	width: 100%;
+}
+body {
+	background-color: white;
+	font-family: Gill Sans Extrabold, sans-serif;
+}
+
+#Navbar {
+	background-color: #E8F8F5;
+	justify-content: center;
+	margin-left: 0px;
+	
+}
+
+.logo {
+	height: 70px;
+	position: relative;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#menu {
+	height: auto;
+	font-size: 20px;
+	color: black;
+	position: relative;
+	margin-top: 80px;
+
+}
+.navbar-light{
+	background-color: #45B39D;
+}
+.light{
+	background-color: #45B39D;
+}
+.one {
+	position: relative;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.two {
+	font-size: 14px;
+}
+.textc1{
+	color: #45B39D; 
+}
+.textc2{
+	color: white;
+}
+@media only screen and (max-width: 575px) {
+	#dlogo {
+	height: 80px;
+	}
+	.logo {
+		height: 80px;
+		margin-top: -13px;	
+	}
+	#simg {
+		height: 300px;
+		margin-top: 50px; 
+	}
+	#address-content {
+		margin-top: 20px;
+	}
+	
+	.card-image {
+		height: 40%;
+		width: 100%;
+		align-self: center;
+	}
+
+
+}
+
+
+@media only screen and (min-width: 757px) {
+	#simg {
+		height: 500px;
+		margin-top: -10px;
+	}
+
+	
+	.card-image {
+		height: 40%;
+		width: 100%;
+		align-self: center;
+	}
+	.carousel-inner {
+		width: auto;
+		height: 450px;
+	}
+}
+@media only screen and (min-width: 1024px) {
+	#simg {
+		height: 700px;
+	}
+	
+	.card-image {
+		height: 100%;
+		width: 100%;
+		align-self: center;
+	}
+	.card {
+		height: 100%;
+	}
+	.carousel-inner {
+		width: auto;
+		height: 600px;
+	}
+}
+@media only screen and (min-width: 1200px) {
+	
+	.carousel-inner {
+		width: auto;
+		height: 800px;
+	}
+}
+#simg {
+	width: 100%;
+	position: relative;
+}
+.content {
+	position: relative;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	text-align: justify;
+}
+#hcontent {
+	background-color: white;
+	width: 100%;
+}
+#event-head {
+	background-color: #E8F8F5;
+	
+	font-style: Gill Sans Extrabold, sans-serif;
+	}
+#event-head2 {
+	background-color: #45B39D;
+	height: 300px;
+	text-align: center;
+	font-style: Gill Sans Extrabold, sans-serif;
+}
+
+#abouthead {
+	background-color: white;
+
+}
+#timg {
+	width: 100%;
+	vertical-align: middle;
+	margin-top: 40px;
+}
+#address {
+	background-color: #E8F8F5;
+	
+	}
+input {
+  font-family: 'Open Sans', sans-serif;
+}
+a {
+	color: white;
+}
+a:hover, a:focus {
+	color: green;
+	text-decoration: none;
+}
+.two a {
+	color: grey;
+}
+.two a:hover, a:focus {
+	color: green;
+	text-decoration: none;
+}
+#sub {
+	background-color: #45B39D;
+}
+
+
+.card {
+		width: auto;
+		background-color: transparent;
+		border-color: transparent;
+	}

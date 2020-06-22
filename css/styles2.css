@@ -1,0 +1,103 @@
+#dlogo {
+	height: 100px;
+	background-color: #E8F8F5;
+	width: 100%;
+}
+body {
+	background-color: white;
+	font-family: Gill Sans Extrabold, sans-serif;
+}
+.navbar {
+	height: 70px;
+	width: 100%;
+}
+#Navbar {
+	background-color: #E8F8F5;
+	justify-content: center;
+	margin-left: 10px;
+	
+}
+
+.logo {
+	height: 100px;
+	position: relative;
+	margin-top: 0px;
+}
+#menu {
+	height: 90px;
+	font-size: 20px;
+	color: black;
+	position: relative;
+	margin-top: 90px;
+}
+.navbar-light{
+	background-color: #45B39D;
+}
+.light{
+	background-color: #45B39D;
+}
+.one {
+	position: relative;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.two {
+	font-size: 18px;
+}
+#dlogo a {
+	color: silver;
+}
+#dlogo a:hover, a:focus {
+	color: green;
+	text-decoration: none;
+}
+#sub a {
+	color: whitesmoke;
+}
+#sub a:hover, a:focus {
+	color: green;
+	text-decoration: none;
+}
+#sub {
+	background-color: #45B39D;
+}
+
+.Copyright {
+	position: relative;
+	bottom: 0;
+
+}
+.textc {
+	color: #45B39D;
+}
+.textc2{
+	color: white;
+}
+@media only screen and (max-width: 575px) {
+	#dlogo {
+	height: 80px;
+	}
+	.logo {
+		height: 80px;
+		margin-top: -13px;	
+	}
+	.contUs {
+		margin-top: 70px;
+	}
+}
+@media only screen and (min-width: 575px) {
+	.contUs {
+		margin-top: auto;
+
+	}
+}
+@media only screen and (min-width: 768px) {
+	.contUs {
+		margin-top: auto;
+	}
+}
+@media only screen and (min-width: 982px) {
+	.contUs {
+		margin-top: auto;
+	}
+}
